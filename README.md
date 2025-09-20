@@ -19,7 +19,7 @@
 - `eda_bivariate_analysis.R`: EDA with ggpairs, cor tests, scatters, densities, bubble plots.
 - `outliers_detection_isolation_forest.R`: Outlier detection using isolation forest, with validation plots and summaries.
 - `missing_data_imputation.R`: Missing data handling with MCAR test, mice CART imputation, pooled models, overdispersion checks.
-- `imputation_density_comparisons.R`: Density plots comparing variables before/after imputation.
+- `graph Before and After Imputation.R`: Density plots comparing variables before/after imputation.
 - `hypothesis_tests_robust_nb.R`: Hypothesis tests (Wald, saddlepoint, esaddle) for variable significance in robust NB models.
 - `goodness_of_fit_diags.R`: Goodness-of-fit metrics like Pearson/deviance chi-sq, pseudo R², AIC/BIC.
 - `robust_nb_model_setup.R`: Model parameters, joint tests, tilted exponential tilting, weighted residuals plots.
