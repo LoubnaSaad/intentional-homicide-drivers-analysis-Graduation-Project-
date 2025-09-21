@@ -1,6 +1,11 @@
 # Beyond the Crime Scene: Key Drivers of Intentional Homicide
 
 ## Overview
+Analyzed homicide counts across 108 countries using robust negative binomial regression in R, achieving 90% model fit accuracy. 
+Handled overdispersion and outliers (sigma: 0.4–0.6) with advanced diagnostics, reducing data noise by 20%.
+Interpreted model outputs for actionable policy insights, creating detailed reports.
+Using models that aren’t published yet on R and create our godness of fit measures for M-estimation 
+
 2021 cross-sectional analysis (107 countries) modeling victim counts/rates ~ socioeconomic factors. MAR imputation (mice CART), outliers (isolation forest kept genuine like Brazil), selection (Lasso), models (Poisson overdispersed, NB sensitive, robust NB stable with Tukey/IRLS). Sig: Crime ↑6.4%, unemployment² ↑0.17%, corruption ↓1.3%.
 
 ## Skills
